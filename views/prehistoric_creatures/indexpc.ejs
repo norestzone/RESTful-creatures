@@ -1,0 +1,14 @@
+<!-- <ul>
+    <% myCreatures.forEach(creature=> { %>
+        <li><img src="<%= creature.img_url %>" alt="creatureImage"></img> is a <%= creature.type %></li>
+    <% }) %>
+  </ul> -->
+
+  <ul>
+    <% myCreatures.forEach(creature=> { %>
+        <li>
+            <h2><%= creature.type %></h2>
+            <img src="<%= creature.img_url %>" alt="creatureImage"></img>
+        </li>
+    <% }) %>
+  </ul>
